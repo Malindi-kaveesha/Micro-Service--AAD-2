@@ -1,0 +1,24 @@
+server:
+  port: 8080
+
+spring:
+  cloud:
+    gateway:
+      mvc:
+        routes:
+          - id: user-service
+            uri: lb://user-service
+            predicates:
+              - Path=/api/users/**
+          - id: vehicle-service
+            uri: lb://vehicle-service
+            predicates:
+              - Path=/api/vehicles/**
+          - id: parking-service
+            uri: lb://parking-service
+            predicates:
+              - Path=/api/parking/**
+          - id: payment-service
+            uri: lb://payment-service
+            predicates:
+              - Path=/api/payments/**

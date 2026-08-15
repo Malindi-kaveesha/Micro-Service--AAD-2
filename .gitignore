@@ -1,0 +1,28 @@
+# Java & Spring Boot Maven ignore
+**/target/
+**/bin/
+**/*.class
+
+# Database files
+**/data/
+*.db
+
+# Help file
+**/HELP.md
+
+# Log files
+*.log
+**/logs/
+
+# IDE configurations
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+
+# OS specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
