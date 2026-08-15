@@ -119,6 +119,8 @@ Import this collection into Postman to test all microservice endpoints with pre-
 Monitor all registered services and their status:
 
 ![Eureka Dashboard](./docs/screenshots/eureka_dashboard.png)
+<img width="1888" height="1011" alt="Test-Path CUsersAsusOneDriveDesktopMicro Service AAD 2docsscreenshotseureka_dashboard png" src="https://github.com/user-attachments/assets/4c273786-6d7e-4963-a73c-8b8764a13349" />
+
 
 Access the dashboard at: `http://localhost:8761/`
 
